@@ -2,7 +2,7 @@
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
 cluster_name: "pgroneclicknew"
-
+ssh_key_name: "pgr"
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
 db_name: "pgroneclickdb"
