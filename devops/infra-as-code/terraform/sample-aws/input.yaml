@@ -1,15 +1,15 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "demo-test"
+cluster_name: "demotestone"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "dbnametest"
+db_name: "demotestdb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "dbusertest" 
+db_username: "demotest" 
 
 # Replace with Domain name you want for your web applications
 domain_name: "demotest.digit.org"
@@ -17,6 +17,6 @@ domain_name: "demotest.digit.org"
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform state
 terraform_state_bucket_name: "demotest-state-s3-bucket"
 
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpqN5ftlQLeQNMv7leuHYtpq8kp0BzvqBnB4ndNw5F9Q5WRejLoogrPesDJ7xc3q7ExYLUDKOtCJAEw21AOiTgX92UOnZ4YxAeTPau5ac0PE/lXfDIABn/5tbIrrOhDc18Jq1ylN09i6nkVSAsM5L5nCtNzgNaBpSjUdvwBcZwCMSHu6Wg4t7T/0x3uNLKKW1XrOhXzZ8/1tx8dubQfz0NOJxrWqVI9H5c06PnlViBdLYpsB7+cLhg/SKn7e7G1qNbpy/sOLLwbr88/fADNExZxQfisXho500wLiGmsaQFaRVbxQnFC1L3PvY4FZtMWWeYn5iTruBWBqXOXvG3w24N"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3KvQgyD0TGNUo0cnLK2RITrqcRlS+4BrTvbliDElBe3FVxjkSljWYaTNUGLDuP14uOmW/5T6Ny9fE3vOu+foWRXbMKo5s9o2hW9KzNJDfYUP/pf6ThuQPZdcukmPlkMfAyMQMbzhBFaVxue5/RO/YHGhSJzkdzuOXR9a/m2mnsY2AWZk+pfXa2KpBfuXGBe02/reXMslQ9CHgnQ5oGWeNitMGuhSyQFsiSA9UeGd9jFlHiVKLxIHFXvoNERzYfgv4ZIHTFT6EnHqNfLjP1xUJSVfhcZkYtDHIwCLrbFMSoOQGNMLGivikAFiVLe81Kzv2HtTGtSkUPoyD4lMIUnaT"
 
 tenant_id: "statea"
