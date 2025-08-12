@@ -12,10 +12,10 @@ db_name: "demotestdb"
 db_username: "demotest" 
 
 # Replace with Domain name you want for your web applications
-domain_name: "demotest.digit.org"
+domain_name: "pgroneclick.digit.org"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform state
-terraform_state_bucket_name: "demotest-state-s3-bucket"
+terraform_state_bucket_name: "pgroneclick-state-s3-bucket"
 
 public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3KvQgyD0TGNUo0cnLK2RITrqcRlS+4BrTvbliDElBe3FVxjkSljWYaTNUGLDuP14uOmW/5T6Ny9fE3vOu+foWRXbMKo5s9o2hW9KzNJDfYUP/pf6ThuQPZdcukmPlkMfAyMQMbzhBFaVxue5/RO/YHGhSJzkdzuOXR9a/m2mnsY2AWZk+pfXa2KpBfuXGBe02/reXMslQ9CHgnQ5oGWeNitMGuhSyQFsiSA9UeGd9jFlHiVKLxIHFXvoNERzYfgv4ZIHTFT6EnHqNfLjP1xUJSVfhcZkYtDHIwCLrbFMSoOQGNMLGivikAFiVLe81Kzv2HtTGtSkUPoyD4lMIUnaT"
 
