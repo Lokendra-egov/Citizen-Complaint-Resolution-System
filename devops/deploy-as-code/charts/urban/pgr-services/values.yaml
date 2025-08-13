@@ -112,6 +112,11 @@ env: |
       configMapKeyRef:
         name: egov-service-host
         key: egov-filestore
+  - name: SPRING_DATASOURCE_URL
+    valueFrom:
+      configMapKeyRef:
+        name: egov-config
+        key: db-url
   - name: EGOV_UI_APP_HOST
     valueFrom:
       configMapKeyRef:
